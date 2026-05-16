@@ -49,9 +49,9 @@ export function AboutSection(): JSX.Element {
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 <strong className="text-gray-900">Warung Oman</strong> telah berdiri sejak tahun
-                2013, melayani warga sekitar dengan penuh keikhlasan dan semangat. Berawal dari
-                warung sembako sederhana, kini kami telah berkembang menjadi pusat layanan
-                kebutuhan harian dan transaksi digital yang lengkap.
+                2010, melayani warga sekitar dengan penuh keikhlasan dan semangat. Berawal dari
+                warung sembako sederhana, kini kami telah berkembang menjadi pusat layanan kebutuhan
+                harian dan transaksi digital yang lengkap.
               </p>
               <p>
                 Kami percaya bahwa warung bukan hanya tempat belanja — tapi juga ruang silaturahmi
@@ -59,7 +59,7 @@ export function AboutSection(): JSX.Element {
                 menghadirkan layanan digital yang memudahkan hidup Anda sehari-hari.
               </p>
               <p>
-                Dengan pengalaman lebih dari <strong className="text-primary-700">10 tahun</strong>,
+                Dengan pengalaman lebih dari <strong className="text-primary-700">15 tahun</strong>,
                 kepercayaan pelanggan adalah amanah yang selalu kami jaga. Harga jujur, pelayanan
                 ramah, dan proses cepat menjadi komitmen kami untuk Anda.
               </p>
@@ -68,14 +68,14 @@ export function AboutSection(): JSX.Element {
             {/* Timeline */}
             <div className="mt-8 flex items-center gap-6">
               <div className="text-center">
-                <p className="text-4xl font-bold font-display text-primary-600">2013</p>
+                <p className="text-4xl font-bold font-display text-primary-600">2010</p>
                 <p className="text-sm text-gray-500">Berdiri</p>
               </div>
               <div className="flex-1 h-px bg-gradient-to-r from-primary-300 to-teal-300 relative">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 bg-primary-500 rounded-full" />
               </div>
               <div className="text-center">
-                <p className="text-4xl font-bold font-display text-teal-600">2024</p>
+                <p className="text-4xl font-bold font-display text-teal-600">2026</p>
                 <p className="text-sm text-gray-500">Kini</p>
               </div>
             </div>

@@ -20,7 +20,8 @@ export function Footer(): JSX.Element {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-sm">
-              Warung terpercaya untuk kebutuhan harian dan layanan digital Anda. Sudah melayani masyarakat dengan sepenuh hati selama lebih dari 10 tahun.
+              Warung terpercaya untuk kebutuhan harian dan layanan digital Anda. Sudah melayani
+              masyarakat dengan sepenuh hati selama lebih dari 15 tahun.
             </p>
             <button
               onClick={() =>
@@ -77,9 +78,7 @@ export function Footer(): JSX.Element {
           <p className="text-gray-500 text-sm">
             © {currentYear} Warung Oman. Hak Cipta Dilindungi.
           </p>
-          <p className="text-gray-600 text-xs">
-            Melayani dengan sepenuh hati 💚
-          </p>
+          <p className="text-gray-600 text-xs">Melayani dengan sepenuh hati 💚</p>
         </div>
       </div>
     </footer>

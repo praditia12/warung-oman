@@ -2,7 +2,7 @@ import { CONTACT_INFO } from '@/data';
 import { scrollToSection, openWhatsApp } from '@/utils';
 
 const STATS = [
-  { value: '10+', label: 'Tahun Pengalaman' },
+  { value: '15+', label: 'Tahun Pengalaman' },
   { value: '1000+', label: 'Pelanggan Puas' },
   { value: '6', label: 'Jenis Layanan' },
   { value: '7', label: 'Hari Buka' },
@@ -12,7 +12,7 @@ export function HeroSection(): JSX.Element {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-primary-900 via-primary-800 to-teal-800"
+      className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-primary-900 via-primary-800 to-teal-800 md:pt-16"
     >
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -37,7 +37,7 @@ export function HeroSection(): JSX.Element {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium text-primary-200 border border-white/20 mb-6">
               <span className="w-2 h-2 bg-primary-400 rounded-full animate-pulse-slow" />
-              Buka Hari Ini · Melayani Sejak 2013
+              Buka Hari Ini · Melayani Sejak 2010
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight mb-6">
@@ -49,7 +49,8 @@ export function HeroSection(): JSX.Element {
             </h1>
 
             <p className="text-lg text-primary-100/80 leading-relaxed mb-8 max-w-xl">
-              Dari sembako lengkap hingga layanan digital modern — PPOB, top up e-wallet, pembayaran tagihan, dan QRIS. Semua tersedia di{' '}
+              Dari sembako lengkap hingga layanan digital modern — PPOB, top up e-wallet, pembayaran
+              tagihan, dan QRIS. Semua tersedia di{' '}
               <span className="text-white font-semibold">satu tempat</span>, dekat dari rumah Anda.
             </p>
 
@@ -126,7 +127,7 @@ export function HeroSection(): JSX.Element {
 
               {/* Floating badge */}
               <div className="absolute -top-4 -right-4 bg-yellow-400 text-yellow-900 font-bold text-sm px-4 py-2 rounded-full shadow-lg">
-                ⭐ Terpercaya 10+ Tahun
+                ⭐ Terpercaya 15+ Tahun
               </div>
             </div>
           </div>

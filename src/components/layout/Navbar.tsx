@@ -78,9 +78,7 @@ export function Navbar(): JSX.Element {
 
           {/* CTA Button desktop */}
           <button
-            onClick={() =>
-              handleNavClick('#contact')
-            }
+            onClick={() => handleNavClick('#contact')}
             className={cn(
               'hidden md:flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200',
               scrolled

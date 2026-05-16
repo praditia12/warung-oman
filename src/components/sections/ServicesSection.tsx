@@ -4,6 +4,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { useInView } from '@/hooks/useInView';
 import { cn } from '@/utils';
 import type { Service } from '@/types';
+import { CONTACT_INFO } from '@/data';
 
 interface ServiceCardProps {
   service: Service;
@@ -76,7 +77,7 @@ export function ServicesSection(): JSX.Element {
               <strong>Ada pertanyaan tentang layanan kami?</strong>{' '}
               <button
                 onClick={() => {
-                  const wa = `https://wa.me/6281234567890?text=${encodeURIComponent('Halo Warung Oman, saya ingin bertanya tentang layanan yang tersedia.')}`;
+                  const wa = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent('Halo Warung Oman, saya ingin bertanya tentang layanan yang tersedia.')}`;
                   window.open(wa, '_blank', 'noopener,noreferrer');
                 }}
                 className="text-primary-600 font-bold underline underline-offset-2 hover:text-primary-800 transition-colors"
