@@ -15,5 +15,5 @@ ReactDOM.createRoot(rootElement).render(
     <HelmetProvider>
       <App />
     </HelmetProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

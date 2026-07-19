@@ -39,7 +39,7 @@ export function Button({
         variantClasses[variant],
         sizeClasses[size],
         fullWidth && 'w-full',
-        className
+        className,
       )}
       {...props}
     >

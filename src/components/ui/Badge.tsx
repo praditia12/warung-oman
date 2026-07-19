@@ -20,7 +20,7 @@ export function Badge({ children, variant = 'green', className }: BadgeProps): J
       className={cn(
         'inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium',
         variantClasses[variant],
-        className
+        className,
       )}
     >
       {children}

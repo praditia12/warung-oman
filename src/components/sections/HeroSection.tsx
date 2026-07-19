@@ -66,7 +66,7 @@ export function HeroSection(): JSX.Element {
                 onClick={() =>
                   openWhatsApp(
                     CONTACT_INFO.whatsapp,
-                    'Halo Warung Oman, saya ingin menanyakan informasi produk/layanan.'
+                    'Halo Warung Oman, saya ingin menanyakan informasi produk/layanan.',
                   )
                 }
                 className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-[#25D366] hover:bg-[#1ebe5d] text-white rounded-xl font-bold text-base transition-all duration-200 shadow-lg active:scale-95"
@@ -86,7 +86,7 @@ export function HeroSection(): JSX.Element {
                   >
                     {service}
                   </span>
-                )
+                ),
               )}
             </div>
           </div>

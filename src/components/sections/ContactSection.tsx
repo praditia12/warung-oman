@@ -7,7 +7,7 @@ export function ContactSection(): JSX.Element {
   const handleWhatsApp = (): void => {
     openWhatsApp(
       CONTACT_INFO.whatsapp,
-      'Halo Warung Oman, saya ingin menanyakan informasi lebih lanjut.'
+      'Halo Warung Oman, saya ingin menanyakan informasi lebih lanjut.',
     );
   };
 
@@ -73,10 +73,7 @@ export function ContactSection(): JSX.Element {
                   <h3 className="font-bold text-gray-900 mb-3">Jam Operasional</h3>
                   <div className="space-y-2">
                     {CONTACT_INFO.operationalHours.map((item) => (
-                      <div
-                        key={item.day}
-                        className="flex items-center justify-between text-sm"
-                      >
+                      <div key={item.day} className="flex items-center justify-between text-sm">
                         <span className="text-gray-600">{item.day}</span>
                         <div className="flex items-center gap-2">
                           <span

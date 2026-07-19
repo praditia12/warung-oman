@@ -27,7 +27,7 @@ export function Footer(): JSX.Element {
               onClick={() =>
                 openWhatsApp(
                   CONTACT_INFO.whatsapp,
-                  'Halo Warung Oman, saya ingin bertanya lebih lanjut.'
+                  'Halo Warung Oman, saya ingin bertanya lebih lanjut.',
                 )
               }
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] hover:bg-[#1ebe5d] text-white rounded-xl text-sm font-semibold transition-colors"

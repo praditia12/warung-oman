@@ -66,7 +66,9 @@ export function TestimonialsSection(): JSX.Element {
           <div className="inline-flex flex-col items-center gap-2 bg-primary-50 border border-primary-200 rounded-2xl px-8 py-6">
             <div className="flex gap-1">
               {Array.from({ length: 5 }).map((_, i) => (
-                <span key={i} className="text-yellow-400 text-2xl">★</span>
+                <span key={i} className="text-yellow-400 text-2xl">
+                  ★
+                </span>
               ))}
             </div>
             <p className="text-4xl font-bold font-display text-primary-700">5.0</p>

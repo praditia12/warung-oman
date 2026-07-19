@@ -16,7 +16,7 @@ const structuredData = {
   name: 'Warung Oman',
   description:
     'Warung Oman menyediakan sembako lengkap, pembayaran tagihan, PPOB, top up e-wallet, dan QRIS di Subang, Jawa Barat.',
-  url: 'https://warungoman.com',
+  url: 'https://warungoman.netlify.app',
   telephone: CONTACT_INFO.whatsappDisplay,
   address: {
     '@type': 'PostalAddress',

@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+public
+.netlify
+.vercel
+coverage
+*.config.js
+*.local

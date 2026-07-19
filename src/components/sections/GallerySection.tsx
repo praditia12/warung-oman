@@ -13,7 +13,16 @@ interface GalleryCardProps {
   onClick?: () => void;
 }
 
-function GalleryCard({ emoji, title, description, bgClass, delay, imageSrc, imageAlt, onClick }: GalleryCardProps): JSX.Element {
+function GalleryCard({
+  emoji,
+  title,
+  description,
+  bgClass,
+  delay,
+  imageSrc,
+  imageAlt,
+  onClick,
+}: GalleryCardProps): JSX.Element {
   const hasImage = Boolean(imageSrc);
 
   return (

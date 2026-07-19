@@ -8,7 +8,7 @@ export function WhatsAppFloat(): JSX.Element {
   const handleClick = (): void => {
     openWhatsApp(
       CONTACT_INFO.whatsapp,
-      'Halo Warung Oman, saya ingin menanyakan informasi lebih lanjut.'
+      'Halo Warung Oman, saya ingin menanyakan informasi lebih lanjut.',
     );
   };
 
@@ -31,7 +31,7 @@ export function WhatsAppFloat(): JSX.Element {
       >
         {/* Pulse ring */}
         <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20" />
-        
+
         {/* WhatsApp Icon SVG */}
         <svg
           className="w-7 h-7 relative z-10"

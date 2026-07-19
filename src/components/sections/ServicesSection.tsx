@@ -20,7 +20,7 @@ function ServiceCard({ service, index }: ServiceCardProps): JSX.Element {
       className={cn(
         'group bg-white rounded-2xl p-6 shadow-card border border-gray-100',
         'hover:border-primary-200 hover:shadow-soft hover:-translate-y-1',
-        'transition-all duration-300 cursor-default'
+        'transition-all duration-300 cursor-default',
       )}
       style={{
         transitionDelay: `${index * 80}ms`,
@@ -33,7 +33,7 @@ function ServiceCard({ service, index }: ServiceCardProps): JSX.Element {
         className={cn(
           'w-14 h-14 rounded-2xl flex items-center justify-center text-3xl mb-5',
           'group-hover:scale-110 transition-transform duration-300',
-          service.bgColor
+          service.bgColor,
         )}
       >
         {service.icon}

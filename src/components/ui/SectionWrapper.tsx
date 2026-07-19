@@ -24,7 +24,7 @@ export function SectionWrapper({
       className={cn(
         'transition-all duration-700',
         animate && !isInView ? 'opacity-0 translate-y-8' : 'opacity-100 translate-y-0',
-        className
+        className,
       )}
     >
       {children}

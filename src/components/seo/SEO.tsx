@@ -35,7 +35,10 @@ export function SEO({
     <Helmet prioritizeSeoTags>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+      <meta
+        name="robots"
+        content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      />
       <meta name="author" content="Warung Oman" />
       <meta name="theme-color" content="#0f766e" />
       <link rel="canonical" href={canonicalUrl} />
